@@ -89,6 +89,24 @@
     <a class="font-size-md color-gray" href="#">Вторая ссылка</a>
     <br>
     <a class="color-gray" href="#">Вторая ссылка</a>
+<script>
+        document.addEventListener('spLiveChatLoaded', function () {
+            window.sp.liveChat.config({
+            // primaryColor: '#f3038a',
+            colorScheme: 'dark',
+            chatPosition: {
+                bottom: '80px',
+                right: '90px'
+            },
+             height: '880px',
+            language: 'en',
+            // custom_img_button: {
+            //     url: 'https://img.freepik.com/free-photo/a-cupcake-with-a-strawberry-on-top-and-a-strawberry-on-the-top_1340-35087.jpg',
+            //     hover_url: 'https://png.pngtree.com/png-clipart/20190903/original/pngtree-loop-icon-png-image_4419929.jpg',
+            // }
+            });
+        });
+    </script>
 <script src="https://cdn.pulse.is/livechat/loader.js" data-live-chat-id="64dc8559aa55ce0cc10ebdd0" async></script>
 <script src="//fbstore.sendpulse.com/loader.js" data-sp-widget-id="6cd7bccf-aa9c-4859-a94e-6372717281c5" async></script> 
   </body>
